@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vowel Checker</title>
+</head>
+<body>
+    
+
+</body>
+
+<script>
+
+var text = prompt("Enter text to find number of vowels");
+
+text = text.toLowerCase();
+
+var counter = 0;
+
+for(var a = 0; a < text.length ;a++){
+
+switch (text.charAt(a)){
+    
+    case ("a") :case ("e") :case ("i") :case ("o") :case ("u") :
+    counter++;
+}
+}
+alert ("Your text contains " + counter + " Vowels");
+
+</script>
+
+
+
+</html>
